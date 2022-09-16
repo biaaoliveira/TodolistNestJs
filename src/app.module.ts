@@ -8,7 +8,7 @@ import { TarefaModule } from './tarefa/modules/tarefa.module';
 
 @Module({
   imports: [
-   /* TypeOrmModule.forRoot({
+    /*TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
       port: 3306,

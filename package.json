@@ -35,8 +35,7 @@
     "typeorm": "^0.3.9",
     "prestart:prod": "npm run build",
     "postinstall": "npm run prestart:prod",
-    "heroku-postbuild": "NODE_ENV=dev npm install --omit --no-shrinkwrap && npm run build" 
-
+    "heroku-postbuild": "NODE_ENV=dev npm install --omit --no-shrinkwrap && npm run build"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
